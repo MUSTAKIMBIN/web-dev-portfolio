@@ -115,11 +115,16 @@ nav a {
 }
 .info-title {
   color: #757575;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
 }
 .info-discription {
   color: #474747;
   font-size: 20px;
   font-weight: 700;
+}
+#what-i-do-dis {
+  padding: 30px 150px;
+  color: #757575;
+  font-size: 18px;
 }
