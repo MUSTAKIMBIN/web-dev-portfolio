@@ -41,22 +41,43 @@ nav a {
 /* header releted style */
 .header {
   background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 50%;
 }
 .bannar {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
 }
-.bannar .mai-img{
+.bannar .mai-img {
   width: 250px;
 }
-/* .banner-greating {
+.banner-greating {
   color: #474747;
   font-size: 40px;
   font-weight: 600;
+  margin-bottom: 0px;
 }
 .banner-title {
   color: #181818;
   font-size: 70px;
   font-weight: 700;
-} */
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.bannar-content {
+  max-width: 500px;
+}
+.bannar-description {
+  color: #757575;
+  font-size: 18px;
+}
+.content{
+  background-color: #fff8f3;
+  color: #fd6e0a;
+  border: 2px solid #fd6e0a;
+  padding: 14px 35px;
+  margin-left: 25px;
+}
