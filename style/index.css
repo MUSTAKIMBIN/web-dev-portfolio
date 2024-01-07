@@ -7,7 +7,7 @@ body {
 }
 .primary-btn {
   border-radius: 5px;
-  background: #fd6e0a;
+  background: #fd6e0a !important;
   border: 0;
   color: white;
   font-size: 15px;
@@ -186,4 +186,25 @@ footer{
   background-color: #fff8f3;
   padding: 0 70px;
   margin-top: 120px;
+  gap: 10px;
+}
+.footer-column{
+  width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"] ,textarea{
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  width: 90%;
+}
+.contact > .primary-btn{
+  color: aliceblue !important;
+  
+}
+.social-icon a{
+  margin: 15px;
 }
