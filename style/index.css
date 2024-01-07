@@ -157,7 +157,7 @@ section {
   display: flex;
   gap: 36px;
 }
-.resume-colunm{
+.resume-colunm {
   padding: 0 20px;
 }
 .resuem-item-title {
@@ -174,24 +174,26 @@ section {
 .resume-item-discription {
   color: #757575;
 }
-.resume-container hr{
+.resume-container hr {
   margin: 30px;
 }
-.download-cv{
+.download-cv {
   text-align: center;
   margin-top: 50px;
 }
-footer{
+footer {
   display: flex;
   background-color: #fff8f3;
   padding: 0 70px;
   margin-top: 120px;
   gap: 10px;
 }
-.footer-column{
+.footer-column {
   width: 50%;
 }
-.contact input[type="text"], .contact input[type="email"] ,textarea{
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
   display: block;
   margin-bottom: 24px;
   padding: 18px 35px;
@@ -201,10 +203,9 @@ footer{
   border: 0;
   width: 90%;
 }
-.contact > .primary-btn{
+.contact > .primary-btn {
   color: aliceblue !important;
-  
 }
-.social-icon a{
+.social-icon a {
   margin: 15px;
 }
